@@ -1,0 +1,43 @@
+// out: style.css, compress: true
+body{
+  background-color: #333;
+  color:#fff;
+}
+.card{
+  margin: 20px;
+}
+
+#adb-enabled{
+  display: none; 
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+
+h2{
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+a{
+  color:#fff;
+  &:hover{
+    color: yellow;
+    text-decoration: none
+  }
+}
+
+a.card{
+  
+  img{
+    &:hover{
+      box-shadow: 0 0 10px 1px rgba(255,255,255,.5);
+    }
+  }
+
+}

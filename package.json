@@ -1,0 +1,25 @@
+{
+  "name": "tv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcastrejont/tv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcastrejont/tv/issues"
+  },
+  "homepage": "https://github.com/vcastrejont/tv#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "ejs": "^2.4.1",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  }
+}
